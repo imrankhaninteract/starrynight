@@ -1,0 +1,88 @@
+Creating an Animated Neon Text Effect with HTML CSS for the 'Starry Night' Webpage
+
+#trending #coding #tutorial
+#html #css #text_effect #neon
+
+html css text animation how to make
+How to create text animation in CSS?
+How to create animation in HTML and CSS?
+How do you make text move in HTML and CSS?
+How do you move text in CSS animation?
+How do you make neon text in CSS?
+How do I make text glow in HTML CSS?
+How do you add glow to text?
+How do you make text light in HTML?
+
+HTML Structure: Defines the basic structure of an HTML document with a head and body section.
+Metadata: Includes character encoding, viewport settings for responsiveness, and sets the title of the webpage to "Starry Night."
+External Fonts: Imports and links external fonts from Google Fonts (Pacifico and Roboto).
+CSS Styling: Uses CSS to style various elements of the webpage.
+Sets the background image of the body element to a specified URL with cover size.
+Styles a container div with padding, flex display, and a column layout with a gap between child elements.
+Styles an anchor (link) element inside the container with specific text alignment, font size, color, font family, and an applied animation effect called "neon1."
+Animation (@keyframes): Defines keyframes for the "neon1" animation, creating a text-shadow effect that gives a neon-like glowing animation to the text.
+Overall, this code creates a simple webpage displaying a link with the text "Starry Night" and applies a neon text effect using CSS animations.
+
+here are the property names used in the CSS code provided along with their respective uses:
+
+display:
+
+Use: Defines how an element behaves in the layout flow.
+Used in the code: Used for the body and #container elements to set them as flex containers.
+align-items:
+
+Use: Aligns flex container's items along the cross-axis.
+Used in the code: Aligns items to the center vertically in the body element.
+justify-content:
+
+Use: Aligns flex container's items along the main axis.
+Used in the code: Aligns items to the center horizontally in the body element.
+margin:
+
+Use: Sets the margin of an element.
+Used in the code: Removes default margin from the body element.
+padding:
+
+Use: Sets the padding space inside an element.
+Used in the code: Provides padding to the #container element.
+background-image:
+
+Use: Sets one or more background images for an element.
+Used in the code: Sets a background image for the body element.
+background-size:
+
+Use: Sets the size of the background image.
+Used in the code: Sets the size of the background image to cover the entire container.
+text-align:
+
+Use: Sets the horizontal alignment of text content within an element.
+Used in the code: Centers the text within the anchor (a) element.
+font-size:
+
+Use: Sets the size of the font.
+Used in the code: Sets the font size for the text within the anchor (a) element.
+margin-bottom and margin-top:
+
+Use: Sets the bottom and top margins of an element.
+Used in the code: Sets the top and bottom margins to 0 for the text within the anchor (a) element.
+line-height:
+
+Use: Sets the height of each line of text within an element.
+Used in the code: Defines the line height for the text within the anchor (a) element.
+text-decoration:
+
+Use: Sets the decoration of a text.
+Used in the code: Removes text underline from the anchor (a) element.
+color:
+
+Use: Sets the color of the text content.
+Used in the code: Sets the color of the text to white for the anchor (a) element.
+font-family:
+
+Use: Specifies the font family to be used for text.
+Used in the code: Applies the 'Pacifico' font family to the text within the anchor (a) element.
+animation and @keyframes:
+
+Use: Defines an animation to be applied to an element.
+Used in the code: Creates an animation named 'neon1' and applies it to the text within the anchor (a) element, defining keyframes for the animation effect.
+These properties, among others, are utilized to style and add various visual effects to elements within the webpage.

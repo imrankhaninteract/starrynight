@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Starry Night</title>
+  <!-- title of the webpage -->
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<!-- linking external fonts, link in the description -->
+<style>
+  body{
+    /* styling for the body element */
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 0;
+padding: 0;
+background-image: url("https://images.pexels.com/photos/573238/pexels-photo-573238.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+/* link in the description */
+background-size: cover; 
+/* scales the background image to cover the entire container */
+
+}
+.container{
+  /* styling container div */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+a{
+  /* styling anchor(link)element */
+  text-align: center;
+  font-size: 5em;
+  margin-bottom: 0;
+  margin-top: 0;
+  line-height: 1;
+  text-decoration: none;
+  color: #fff;
+  /* text color */
+  font-family: 'Pacifico', cursive;
+  animation: neon 1.5s ease-in-out infinite alternate;
+  /* animation effect */
+}
+@keyframes neon {
+  /* keyframes for the 'neon' animation */
+  from{
+    text-shadow: 0 0 4px #fff, 0 0 12px #fff, 
+    /* initial text shadow properties */ 
+    
+    0 0 16px #ff1177, 0 0 28px #ff1177, 0 0 32px #ff1177, 0 0 40px #ff1177, 0 0 60px #ff1177 ;
+  }
+  to {
+    text-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 
+    /* final text shadow properties */
+    0 0 8px #ff1177, 0 0 14px #ff1177, 0 0 16px #ff1177, 0 0 20px #ff1177, 0 0 30px #ff1177;
+  }
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <a href="#">Starry Night</a>
+  </div>
+</body>
+</html>
+
+
